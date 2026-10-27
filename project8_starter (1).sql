@@ -131,7 +131,8 @@ SHOW FULL TABLES;
 -- PROJECT 8 STEP 5. Create the SUPPLIER table
 -- =================================================================
 
--- your comment goes here
+---Create a table to store supplier information. The supplier_id is the primary key, ensuring each supplier has a unique identifier.
+
 -- CREATE TABLE SUPPLIER (
 supplier_id INT NOT NULL,
 supplier_name VARCHAR(40) NOT NULL,
@@ -145,7 +146,7 @@ PRIMARY KEY (supplier_id)
 -- PROJECT 8 STEP 6. Add the three suppliers
 -- =================================================================
 
--- your comment goes here
+
 -- INSERT INTO supplier
 INSERT INTO SUPPLIER (supplier_id, supplier_name, city, phone)
 VALUES
